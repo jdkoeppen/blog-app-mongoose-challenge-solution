@@ -2,20 +2,32 @@
   "name": "blog-app-challenge-starter-files",
   "version": "0.0.1",
   "description": "Shopping list app to demo 'the modern classic'",
-  "repository": "https://github.com/Thinkful-Ed/blog-app-mongoose-challenge-solution",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thinkful-Ed/blog-app-mongoose-challenge-solution.git"
+  },
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
+    "chai": "^4.1.2",
+    "chai-http": "^4.0.0",
     "express": "^4.16.3",
+    "faker": "^4.1.0",
     "mongoose": "^5.0.12",
     "morgan": "^1.9.0",
+    "npm": "^5.8.0",
     "uuid": "^3.2.1"
   },
   "keywords": [
     "node",
     "express"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Thinkful-Ed/blog-app-mongoose-challenge-solution/issues"
+  },
+  "homepage": "https://github.com/Thinkful-Ed/blog-app-mongoose-challenge-solution#readme",
+  "author": ""
 }
