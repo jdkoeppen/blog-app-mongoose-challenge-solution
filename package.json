@@ -7,15 +7,16 @@
     "url": "git+https://github.com/Thinkful-Ed/blog-app-mongoose-challenge-solution.git"
   },
   "main": "server.js",
-  "scripts": {"test": "mocha"},
-    "start": "node server.js"
+  "scripts": {
+    "start": "node server.js",
+    "test": "mocha --exit"
   },
   "dependencies": {
     "chai": "^4.1.2",
     "chai-http": "^4.0.0",
     "express": "^4.16.3",
     "faker": "^4.1.0",
-    "mongoose": "^5.0.12",
+    "mongoose": "^5.0.15",
     "morgan": "^1.9.0",
     "npm": "^5.8.0",
     "uuid": "^3.2.1"
