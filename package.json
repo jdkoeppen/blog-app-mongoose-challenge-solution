@@ -7,7 +7,7 @@
     "url": "git+https://github.com/Thinkful-Ed/blog-app-mongoose-challenge-solution.git"
   },
   "main": "server.js",
-  "scripts": {
+  "scripts": {"test": "mocha"},
     "start": "node server.js"
   },
   "dependencies": {
@@ -29,5 +29,8 @@
     "url": "https://github.com/Thinkful-Ed/blog-app-mongoose-challenge-solution/issues"
   },
   "homepage": "https://github.com/Thinkful-Ed/blog-app-mongoose-challenge-solution#readme",
-  "author": ""
+  "author": "",
+  "devDependencies": {
+    "mocha": "^5.1.1"
+  }
 }
